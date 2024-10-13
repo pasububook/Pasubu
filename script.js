@@ -4,7 +4,7 @@ var finish_number = 0;
 var memory = 0;
 
 var element = document.getElementById( "input_file" ) ;
-        var resultElement = document.getElementById( "deta" ) ;
+        var resultElement = document.getElementById( "data" ) ;
         //読み込まれ後の処理
         element.onchange = function () {
             var fileReader = new FileReader() ;
@@ -19,7 +19,7 @@ var element = document.getElementById( "input_file" ) ;
                 console.log(number)
                 for(let i = 1; i <= count; i++){
                     // aタグ
-                    textbox_element = document.getElementById('deta');
+                    textbox_element = document.getElementById('data');
                     var new_element = document.createElement('a');
                     new_element.id = "link" + number;
                     new_element.className = "link";
