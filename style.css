@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+}
+
+/*bookmark*/
+.bookmark{
+    text-align: center;
+    display: inline-block;
+}
+.link_box{
+    text-align: center;
+    display: inline-block;
+    background-color: red;
+    color: white;
+    width: 75px;
+    height: 75px;
+    border-radius: 5px;
+    font-size: 45px;
+    margin: 10px;
+    vertical-align: middle;
+}
+.link_name{
+    display: inline-block;
+    color: black;
+    margin: 5px;
+}
