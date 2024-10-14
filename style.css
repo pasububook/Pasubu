@@ -2,6 +2,27 @@
     margin: 0;
     padding: 0;
 }
+/* 通常モード */
+:root{
+    --layer1: #f9f9fb;
+    --layer2: #f0f0f4;
+    --hover-text: #cfcfd8;
+    --text: #15141a;
+}
+/* ダークモード */
+@media (prefers-color-scheme: dark) {
+    :root{
+        --layer1: #2b2a33;
+        --layer2: #1c1b22;
+        --hover-text: #1c1c1c;
+        --text: #fbfbfe;
+    }
+}
+
+body{
+    background-color: var(--layer2);
+    color: var(--text);
+}
 
 /* ヘッダー */
 header{
@@ -10,6 +31,12 @@ header{
     top: 0;
     height: 70px;
     width: 100%;
+    background-color: var(--layer1);
+}
+h1{
+    margin: auto;
+    margin-left: 0;
+    padding: 10px;
 }
 #link-box{
     display: flex;
@@ -17,17 +44,15 @@ header{
     margin-right: 0;
 }
 .header-link{
-    background-color: red;
-    color: black;
+    background-color: var(--layer1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text);
     text-align: center;
     font-size: 1rem;
     width: 100px;
     height: 70px;
-    padding: 4px;
-}
-.header-icon{
-    display: block;
-    font-size: 1.3rem;
 }
 
 /*bookmark*/
