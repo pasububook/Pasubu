@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 /* 通常モード */
 :root{
@@ -53,6 +54,9 @@ h1{
     font-size: 1rem;
     width: 100px;
     height: 70px;
+}
+.header-link:hover{
+    background-color: var(--gray);
 }
 
 /*bookmark*/
