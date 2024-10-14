@@ -7,8 +7,10 @@
 :root{
     --layer1: #f9f9fb;
     --layer2: #f0f0f4;
+    --hovr: gray;
     --hover-text: #cfcfd8;
     --text: #15141a;
+    --border: gray;
 }
 /* ダークモード */
 @media (prefers-color-scheme: dark) {
@@ -54,9 +56,11 @@ h1{
     font-size: 1rem;
     width: 100px;
     height: 70px;
+    border: noen;
+    border-left: 1px solid var(--border);
 }
 .header-link:hover{
-    background-color: var(--gray);
+    background-color: var(--hovr);
 }
 
 /*bookmark*/
