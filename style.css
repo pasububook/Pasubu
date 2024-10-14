@@ -82,9 +82,7 @@ h1{
 }
 .link_name{
     display: inline-block;
-    color: black;
+    color: var(--text);
     max-width: 200px;
     margin: 5px;
 }
-
-/* フッター */
