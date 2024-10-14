@@ -1,5 +1,28 @@
 *{
     margin: 0;
+    padding: 0;
+}
+
+/* ヘッダー */
+header{
+    display: flex;
+}
+#link-box{
+    display: flex;
+    margin: auto;
+    margin-right: 0;
+}
+.header-link{
+    background-color: red;
+    color: black;
+    text-align: center;
+    font-size: 1rem;
+    width: 100px;
+    padding: 4px;
+}
+.header-icon{
+    display: block;
+    font-size: 1.3rem;
 }
 
 /*bookmark*/
@@ -25,3 +48,5 @@
     max-width: 200px;
     margin: 5px;
 }
+
+/* フッター */
